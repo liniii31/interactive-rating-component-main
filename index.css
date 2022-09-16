@@ -10,8 +10,8 @@ body{
 }
 .center{
     background-color: hsl(216, 12%, 8%);
-    height:48%;
-    width:27%;
+    height:auto;
+    width:auto;
     margin: 13% 38%;
     padding-top: 0.05%;
     border-radius: 5%;
@@ -93,4 +93,16 @@ body{
     font-weight: 400;
     margin:5%;
     text-align: center;    
+}
+@media screen and (max-width:375px) {
+    .center{
+        background-color: hsl(216, 12%, 8%);
+        height:auto;
+        width:auto;
+        margin: 5%;
+        margin-top:40%;
+        padding-top: 0.05%;
+        padding-bottom: 5%;
+        border-radius: 5%;
+    }
 }
