@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: rgb(8, 8, 8);
+    height:100vh;
+    width:100vw;
+    overflow: hidden;
+}
+.center{
+    background-color: hsl(216, 12%, 8%);
+    height:48%;
+    width:27%;
+    margin: 13% 38%;
+    padding-top: 0.05%;
+    border-radius: 5%;
+}
+#symbol{
+    text-align: center;
+    height:5%;
+    width:5%;
+    padding: 4%;
+    margin:5%;
+    border-radius: 50%;
+    background-color: rgb(59, 57, 57);
+}
+#heading-1{
+    color: azure;
+    margin:5%;
+    font-family: 'Overpass';
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.para{
+    color:hsl(217, 12%, 63%);
+    font-weight: 400;
+    margin:5%;
+}
+#rating{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin:5%;
+}
+.rate{
+    background-color: rgb(59, 57, 57);
+    text-align: center;
+    height:5%;
+    width:5%;
+    padding: 4%;
+    border-radius: 50%;
+    color:hsl(217, 12%, 63%);
+}
+.button{
+    background-color: hsl(25, 97%, 53%);
+    color: azure;
+    margin: 6%;
+    text-align: center;
+    padding:2%;
+    border-radius: 25px;
+}
+.button:hover{
+    background-color: azure;  
+    color: hsl(25, 97%, 53%);
+}
+.rate:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: azure;
+}
+#icon{
+    text-align: center;
+    margin-top: 10%;
+}
+#show-rating{
+    margin: 10%;
+    padding: 1%;
+    background-color: rgb(59, 57, 57);
+    border-radius: 25px;
+    color:hsl(25, 97%, 53%);
+    text-align: center;
+}
+#heading2{
+    color: azure;
+    margin:5%;
+    font-family: 'Overpass';
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.para2{
+    color:hsl(217, 12%, 63%);
+    font-weight: 400;
+    margin:5%;
+    text-align: center;    
+}
