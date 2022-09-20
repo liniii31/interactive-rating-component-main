@@ -59,6 +59,7 @@ body{
     text-align: center;
     padding:2%;
     border-radius: 25px;
+    width: 25em;
 }
 .button:hover{
     background-color: azure;  
